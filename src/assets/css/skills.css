@@ -1,0 +1,80 @@
+
+.skill-img-cont {
+    margin: 40px;
+    max-width: 40vh;
+    display: none;
+}
+
+.skill-img-start {
+    display: flex;
+}
+
+.left {
+    position: relative;
+    right: 0vw;
+}
+
+.start_left_animation {
+    animation: left_to_center 2.5s;
+}
+
+.right {
+    position: relative;
+    right: 0vh;
+}
+
+.start_right_animation {
+    animation: right_to_center 2.5s;
+}
+
+.animation_center_to_left {
+    animation: center_to_left 2.5s;
+}
+
+.animation_center_to_right {
+    animation: center_to_right 2.5s;
+}
+
+@keyframes right_to_center {
+    0% {
+        right: -10vw;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes left_to_center {
+    0% {
+        left: -10vw;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes center_to_right {
+    0% {
+        right: 0;
+        opacity: 1;
+    }
+    100% {
+        right: -50vw;
+        opacity: 0;
+    }
+}
+
+@keyframes center_to_left {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: -50vw;
+        opacity: 0;
+    }
+}

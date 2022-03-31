@@ -1,0 +1,58 @@
+.header {
+    background: #6A0066;
+    width: 100%;
+    height: 100vh;
+}
+
+.pName {
+    margin-top: 20vh;
+}
+
+.bajoHeader {
+    margin-top: 10vh;
+}
+
+.contact-item {
+    cursor: pointer;
+}
+
+.contact-icon {
+    height: 30px;
+    width: 30px;
+}
+
+#alertContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: None;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90vh;
+    z-index: 1;
+}
+
+#copyAlert {
+    width: 80%;
+    text-align: center;
+}
+
+.social-item {
+    margin-top: 25vh;
+}
+
+.social-icon {
+    background: #3D8D00;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-img {
+    height: 30px;
+    width: 30px;
+}
