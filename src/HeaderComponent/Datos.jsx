@@ -14,7 +14,7 @@ function Datos() {
     }
     return (
         <React.Fragment>
-        <div className='container'>
+        <div className='container data-container'>
             {/* Contact */}
             <div className='row contact-item-container'>
                 <div className='col-5 col-md contact-item d-flex justify-content-center' data-bs-toggle="tooltip" title="Copy +525525605025">

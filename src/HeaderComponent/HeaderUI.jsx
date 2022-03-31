@@ -4,9 +4,19 @@ import { Datos } from './Datos'
 import { Technologies } from './Technologies'
 
 function HeaderUI() {
-    const show = 'datos'
+    const [show, setShow] = React.useState('datos')
+    const toggleShow = () => {
+        if (show === 'datos') {
+            setShow('technologies')
+        } else {
+            setShow('datos')
+        }
+    }
     return (
-        <header className='header container-fluent'>
+        <header className='myheader'>
+            <div className='row'>
+                <div className='header-fondo'></div>
+            </div>
             {/* Name Data */}
             <div className='row myName'>
                 <p className='col text-center h1 pName'>
@@ -26,7 +36,16 @@ function HeaderUI() {
 
 
             {/* Contact Data */}
-            <div className='row bajoHeader'>
+            <div className='row d-flex justify-content-end' id='headerToggle-Container'>
+                <img
+                    className='col-1 icon-contact btn headerToggle'
+                    src={require('../assets/media/icons/toggle.png')}
+                    alt='toggle'
+                    onClick={toggleShow}
+                />
+                <span className='col-1'></span>
+            </div>
+            <div className='row bajoHeader d-flex justify-content-center'>
                 {show === 'datos' && <Datos />}
                 {show === 'technologies' && <Technologies />}
             </div>
