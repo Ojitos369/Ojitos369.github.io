@@ -1,7 +1,8 @@
 .header {
-    background: #6A0066;
+    background: #6a0066;
     width: 100%;
-    height: 100vh;
+    padding-bottom: 40px;
+    margin: 0;
 }
 
 .pName {
@@ -14,6 +15,7 @@
 
 .contact-item {
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .contact-icon {
@@ -38,8 +40,12 @@
     text-align: center;
 }
 
+.social-item-container {
+    margin-top: 23vh;
+}
+
 .social-item {
-    margin-top: 25vh;
+    margin-top: 15px;
 }
 
 .social-icon {
