@@ -34,8 +34,9 @@
 }
 
 .headerToggle {
-    max-height: 10vh !important;
     max-width: 10vh !important;
+    min-width: 60px !important;
+    height: auto !important;
 }
 
 .data-container,
