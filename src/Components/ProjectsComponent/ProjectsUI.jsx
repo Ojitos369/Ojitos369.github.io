@@ -81,30 +81,24 @@ function ProjectsUI() {
     }
     return (
         <React.Fragment>
-            <div className='container'>
+            <div className='container pb-4'>
                 <div className='row'>
                     <p className='col-12 text-center h2'>
                         Some Projects
                     </p>
                 </div>
-                <div class="accordion mb-4" id="projectsAccordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="projectsPage" onClick={toggleProjects}>
-                            <button class="accordion-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjects" aria-expanded="true" aria-controls="collapseProjects">
-                                {showProjects}
-                            </button>
-                        </h2>
-                        <div id="collapseProjects" class="accordion-container accordion-collapse collapse show" aria-labelledby="projectsPage" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div className='row d-flex justify-content-around'>
-                                    {projects.map((project, index) => {
-                                        return (
-                                            <Project key={index} projectIndex={index + 1} project={project} />
-                                        )
-                                    })}
-                                </div>
-                            </div>
-                        </div>
+                <p>
+                    <button class="btn btn-primary offset-1 col-10 my-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onClick={toggleProjects}>
+                        {showProjects}
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div className='row d-flex justify-content-around'>
+                        {projects.map((project, index) => {
+                            return (
+                                <Project key={index} projectIndex={index + 1} project={project} />
+                            )
+                        })}
                     </div>
                 </div>
             </div>

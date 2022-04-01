@@ -29,8 +29,8 @@ function Project(props) {
         }
     })
 
-    const repoButtonClass = project.link !== '' ? "btn btn-primary col-5 repo-btn" : "btn btn-primary col-10 repo-btn"
-    const linkButtonClass = project.repo !== '' ? "btn btn-success col-5 site-btn" : "btn btn-success col-10 site-btn"
+    const repoButtonClass = project.link !== '' ? "btn btn-primary col-5 my-btn" : "btn btn-primary col-10 my-btn"
+    const linkButtonClass = project.repo !== '' ? "btn btn-success col-5 my-btn" : "btn btn-success col-10 my-btn"
     return (
         <React.Fragment>
             <div className='col-10 col-md-4 mt-4'>
