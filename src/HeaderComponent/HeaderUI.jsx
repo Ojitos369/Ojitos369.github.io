@@ -4,12 +4,13 @@ import { Datos } from './Datos'
 import { Technologies } from './Technologies'
 
 function HeaderUI() {
-    const [show, setShow] = React.useState('datos')
+    const [show, setShow] = React.useState('datos');
+
     const toggleShow = () => {
         if (show === 'datos') {
-            setShow('technologies')
+            setShow('technologies');
         } else {
-            setShow('datos')
+            setShow('datos');
         }
     }
     return (

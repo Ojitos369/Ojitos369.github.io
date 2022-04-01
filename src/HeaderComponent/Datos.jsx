@@ -17,7 +17,7 @@ function Datos() {
         <div className='container data-container'>
             {/* Contact */}
             <div className='row contact-item-container'>
-                <div className='col-5 col-md contact-item d-flex justify-content-center' data-bs-toggle="tooltip" title="Copy +525525605025">
+                <div className='col-6 col-sm-4 contact-item d-flex justify-content-center' data-bs-toggle="tooltip" title="Copy +525525605025">
                     <span onClick={() => {
                         copyData('+525525605025')
                     }}>
@@ -37,7 +37,7 @@ function Datos() {
                         />
                     </a>
                 </div>
-                <div className='col-5 col-md contact-item d-flex justify-content-center' data-bs-toggle="tooltip" title="Copy ojitos369@gmail.com">
+                <div className='col-6 col-sm-4 contact-item d-flex justify-content-center' data-bs-toggle="tooltip" title="Copy ojitos369@gmail.com">
                     <span onClick={() => {
                         copyData('ojitos369@gmail.com')
                     }}>
@@ -57,7 +57,7 @@ function Datos() {
                         />
                     </a>
                 </div>
-                <div className='col-12 col-md contact-item d-flex justify-content-center' data-bs-toggle="tooltip" title="Copy Direction">
+                <div className='col col-sm-4 contact-item d-flex justify-content-center' data-bs-toggle="tooltip" title="Copy Direction">
                     <span onClick={() => {
                         copyData('Heraldo de Toluca 409, Prensa Nacional, 54170 Tlalnepantla de Baz, Méx.')
                     }}>

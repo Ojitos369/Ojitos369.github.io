@@ -20,7 +20,7 @@
 }
 
 .pName {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .bajoHeader {
@@ -30,13 +30,13 @@
 }
 
 #headerToggle-Container {
-    max-height: 10vh !important;
+    max-height: 10vh;
 }
 
 .headerToggle {
-    max-width: 10vh !important;
-    min-width: 60px !important;
-    height: auto !important;
+    max-width: 10vh;
+    min-width: 60px;
+    height: auto;
 }
 
 .data-container,
@@ -92,4 +92,84 @@
 .social-icon-img {
     height: 30px;
     width: 30px;
+}
+
+.tech {
+    height: 20vh;
+}
+
+.tech-one {
+    background: url(../assets/media/dev-icons/javascript.svg) no-repeat center;
+    animation: left-tech 18s infinite;
+}
+
+.tech-two {
+    background: url(../assets/media/dev-icons/python.svg) no-repeat center;
+    animation: right-tech 18s infinite;
+}
+
+@keyframes left-tech {
+    0% {
+        background: url(../assets/media/dev-icons/javascript.svg) no-repeat center;
+    }
+    11% {
+        background: url(../assets/media/dev-icons/html5.svg) no-repeat center;
+    }
+    22% {
+        background: url(../assets/media/dev-icons/bootstrap.svg) no-repeat center;
+    }
+    33% {
+        background: url(../assets/media/dev-icons/css3.svg) no-repeat center;
+    }
+    44% {
+        background: url(../assets/media/dev-icons/react.svg) no-repeat center;
+    }
+    55% {
+        background: url(../assets/media/dev-icons/nodejs.svg) no-repeat center;
+    }
+    66% {
+        background: url(../assets/media/dev-icons/php.svg) no-repeat center;
+    }
+    77% {
+        background: url(../assets/media/dev-icons/npm.svg) no-repeat center;
+    }
+    88% {
+        background: url(../assets/media/dev-icons/git.svg) no-repeat center;
+    }
+    99% {
+        background: url(../assets/media/dev-icons/javascript.svg) no-repeat center;
+    }
+}
+
+@keyframes right-tech {
+    0% {
+        background: url(../assets/media/dev-icons/python.svg) no-repeat center;
+    }
+    11% {
+        background: url(../assets/media/dev-icons/django.svg) no-repeat center;
+    }
+    22% {
+        background: url(../assets/media/dev-icons/flask.svg) no-repeat center;
+    }
+    33% {
+        background: url(../assets/media/dev-icons/mysql.svg) no-repeat center;
+    }
+    44% {
+        background: url(../assets/media/dev-icons/golang.svg) no-repeat center;
+    }
+    55% {
+        background: url(../assets/media/dev-icons/firebase.svg) no-repeat center;
+    }
+    66% {
+        background: url(../assets/media/dev-icons/c++.svg) no-repeat center;
+    }
+    77% {
+        background: url(../assets/media/dev-icons/postgresql.svg) no-repeat center;
+    }
+    88% {
+        background: url(../assets/media/dev-icons/github.svg) no-repeat center;
+    }
+    99% {
+        background: url(../assets/media/dev-icons/python.svg) no-repeat center;
+    }
 }
