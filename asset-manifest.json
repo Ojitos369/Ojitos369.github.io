@@ -1,19 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.9214fa70.css",
-    "main.js": "/static/js/main.78319a25.js",
+    "main.css": "/static/css/main.bd024e5a.css",
+    "main.js": "/static/js/main.6072fdd7.js",
     "static/media/fondo4.jpg": "/static/media/fondo4.221d0152ed1030e8715b.jpg",
     "static/media/email.png": "/static/media/email.fe5f20c836cba2355368.png",
     "static/media/toggle.png": "/static/media/toggle.7ea867271c3f157cd01a.png",
+    "static/media/php.svg": "/static/media/php.1e73afc4967ab2fe950b.svg",
     "static/media/instagram.png": "/static/media/instagram.9124b5496c93a85bc18b.png",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.cfc8c34c02e2c46c6dfe.svg",
     "static/media/github.png": "/static/media/github.cbc56e56b858de1f05fe.png",
     "static/media/twitter.png": "/static/media/twitter.0344cde5729fe29e5ced.png",
+    "static/media/postgresql.svg": "/static/media/postgresql.7bc394e86ea1f692d59a.svg",
+    "static/media/flask.svg": "/static/media/flask.c084b9349458e09e6559.svg",
+    "static/media/golang.svg": "/static/media/golang.2774508588a4db110dbe.svg",
+    "static/media/mysql.svg": "/static/media/mysql.ebf5eeaef302d497971c.svg",
+    "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5.svg",
+    "static/media/python.svg": "/static/media/python.849d0b2b5f1ec20f077d.svg",
+    "static/media/github.svg": "/static/media/github.3c903c66b2c5334c8c0b.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.10c9e2aa0ca7edf36fce.svg",
+    "static/media/django.svg": "/static/media/django.0992085e6588c0fb7fed.svg",
+    "static/media/javascript.svg": "/static/media/javascript.4c1b5332c1b1057928f6.svg",
     "index.html": "/index.html",
-    "main.9214fa70.css.map": "/static/css/main.9214fa70.css.map",
-    "main.78319a25.js.map": "/static/js/main.78319a25.js.map"
+    "static/media/c++.svg": "/static/media/c++.f5ed104b00a745b1e771.svg",
+    "static/media/css3.svg": "/static/media/css3.39769a8bd378bf410d6b.svg",
+    "static/media/git.svg": "/static/media/git.c08353563539c6459b35.svg",
+    "static/media/html5.svg": "/static/media/html5.8664168d5bc90b1a2439.svg",
+    "static/media/firebase.svg": "/static/media/firebase.0d5ec3e60614ea8e4d7a.svg",
+    "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b.svg",
+    "main.bd024e5a.css.map": "/static/css/main.bd024e5a.css.map",
+    "main.6072fdd7.js.map": "/static/js/main.6072fdd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9214fa70.css",
-    "static/js/main.78319a25.js"
+    "static/css/main.bd024e5a.css",
+    "static/js/main.6072fdd7.js"
   ]
 }
