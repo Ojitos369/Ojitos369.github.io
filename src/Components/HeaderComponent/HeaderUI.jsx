@@ -40,7 +40,7 @@ function HeaderUI() {
             <div className='row d-flex justify-content-end' id='headerToggle-Container'>
                 <img
                     className='col-1 icon-contact btn headerToggle'
-                    src={require('../assets/media/icons/toggle.png')}
+                    src={require('../../assets/media/icons/toggle.png')}
                     alt='toggle'
                     onClick={toggleShow}
                 />

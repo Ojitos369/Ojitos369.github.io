@@ -1,9 +1,13 @@
 import React from 'react'
-import { HeaderComponent } from '../HeaderComponent'
+import { HeaderComponent } from '../Components/HeaderComponent'
+import { ProjectsComponent } from '../Components/ProjectsComponent'
 
 function AppUI() {
     return (
-        <HeaderComponent />
+        <React.Fragment>
+            <HeaderComponent />
+            <ProjectsComponent />
+        </React.Fragment>
     )
 }
 

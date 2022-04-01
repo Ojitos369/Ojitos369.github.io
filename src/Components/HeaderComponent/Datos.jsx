@@ -32,7 +32,7 @@ function Datos() {
                     >
                         <img 
                             className='contact-icon'
-                            src={require('../assets/media/icons/phone.png')}
+                            src={require('../../assets/media/icons/phone.png')}
                             alt="tel"
                         />
                     </a>
@@ -52,7 +52,7 @@ function Datos() {
                     >
                         <img 
                             className='contact-icon'
-                            src={require('../assets/media/icons/email.png')}
+                            src={require('../../assets/media/icons/email.png')}
                             alt="email"
                         />
                     </a>
@@ -72,7 +72,7 @@ function Datos() {
                     >
                         <img 
                             className='contact-icon'
-                            src={require('../assets/media/icons/location.png')}
+                            src={require('../../assets/media/icons/location.png')}
                             alt="map"
                         />
                     </a>
@@ -92,7 +92,7 @@ function Datos() {
                     >
                         <img 
                             className='social-icon-img'
-                            src={require('../assets/media/icons/linkedin.png')}
+                            src={require('../../assets/media/icons/linkedin.png')}
                             alt="tel"
                         />
                     </a>
@@ -108,7 +108,7 @@ function Datos() {
                     >
                         <img 
                             className='social-icon-img'
-                            src={require('../assets/media/icons/github.png')}
+                            src={require('../../assets/media/icons/github.png')}
                             alt="tel"
                         />
                     </a>
@@ -124,7 +124,7 @@ function Datos() {
                     >
                         <img 
                             className='social-icon-img'
-                            src={require('../assets/media/icons/platzi.png')}
+                            src={require('../../assets/media/icons/platzi.png')}
                             alt="tel"
                         />
                     </a>
@@ -140,7 +140,7 @@ function Datos() {
                     >
                         <img 
                             className='social-icon-img'
-                            src={require('../assets/media/icons/instagram.png')}
+                            src={require('../../assets/media/icons/instagram.png')}
                             alt="tel"
                         />
                     </a>
@@ -156,7 +156,7 @@ function Datos() {
                     >
                         <img 
                             className='social-icon-img'
-                            src={require('../assets/media/icons/twitter.png')}
+                            src={require('../../assets/media/icons/twitter.png')}
                             alt="tel"
                         />
                     </a>
@@ -172,7 +172,7 @@ function Datos() {
                     >
                         <img 
                             className='social-icon-img'
-                            src={require('../assets/media/icons/facebook.png')}
+                            src={require('../../assets/media/icons/facebook.png')}
                             alt="tel"
                         />
                     </a>
