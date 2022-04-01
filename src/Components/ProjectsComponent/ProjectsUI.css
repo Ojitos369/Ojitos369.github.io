@@ -11,22 +11,60 @@
     color: #fff !important;
     text-align: center;
 }
+
 .accordion-button {
     border:none;
     color: #fff !important;
     text-align: center;
 }
 
-
 .card {
     border: 1px #888 solid;
     border-radius: 15px;
 }
 
+.carousel-item {
+    transition: transform 2.3s ease-in-out;
+}
+
+/* .my-carousel .active.carousel-item-start,
+.my-carousel .active.carousel-item-end {
+    transition: opacity 0s 3s;
+} */
+
+
+/* Parallax animation effects */
+.my-carousel .carousel-item .img-carousel {
+    transform: scale(1) translateX(0);
+    transition: all .5s;
+}
+
+.my-carousel .carousel-item.carousel-item-next .img-carousel,
+.my-carousel .carousel-item.active.carousel-item-right .img-carousel {
+    transform: scale(.0) translateX(0);
+}
+
+.my-carousel .carousel-item.carousel-item-prev .img-carousel,
+.my-carousel .carousel-item.active.carousel-item-left .img-carousel {
+    transform: scale(.0) translateX(0);
+}
+
+.my-carousel .carousel-item.carousel-item-next.carousel-item-left .img-carousel,
+.my-carousel .carousel-item.carousel-item-prev.carousel-item-right .img-carousel {
+    /*transform: scale(1);*/
+    transform: scale(1) translateX(0);
+}
+
+
+/* Makes carousel full screen */
+.my-carousel .carousel-item {
+    overflow: hidden;
+}
+
+
 .my-btn:hover {
     animation: reflejo 0.5s;
 }
-
 
 .my-sticky-top {
     position: sticky;

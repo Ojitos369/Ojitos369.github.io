@@ -18,39 +18,50 @@ function Project(props) {
         if (index === 0) {
             return (
                 <div className="carousel-item active">
-                    <img src={require(`../../assets/media/projects/${file}`)} className="d-block w-100 img-carousel" alt={`${project.name} ${index + 1}`}/>
+                    <img 
+                        src={require(`../../assets/media/projects/${file}`)} 
+                        className="d-block w-100 img-carousel" 
+                        alt={`${project.name} ${index + 1}`}
+                    />
                 </div>
             )
         }
         else {
-            return <div className="carousel-item">
-                <img src={require(`../../assets/media/projects/${file}`)} className="d-block w-100 img-carousel" alt={`${project.name} ${index + 1}`}/>
-            </div>
+            return (
+                <div className="carousel-item">
+                    <img 
+                        src={require(`../../assets/media/projects/${file}`)} 
+                        className="d-block w-100 img-carousel" 
+                        alt={`${project.name} ${index + 1}`}
+                    />
+                </div>
+            )
         }
     })
 
     const repoButtonClass = project.link !== '' ? "btn btn-primary col-5 my-btn" : "btn btn-primary col-10 my-btn"
     const linkButtonClass = project.repo !== '' ? "btn btn-success col-5 my-btn" : "btn btn-success col-10 my-btn"
+
     return (
         <React.Fragment>
             <div className='col-10 col-md-4 mt-4'>
                 <div className="card">
                     {/* Carousel Header */}
-                    <div id={`project-${projectIndex}`} className="carousel slide" data-bs-ride="carousel" data-pause="false">
-                    <div className="carousel-indicators">
-                        {buttonsCarousel}
-                    </div>
-                    <div className="carousel-inner">
-                        {imagesCarousel}
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target={`#project-${projectIndex}`} data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target={`#project-${projectIndex}`} data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
+                    <div id={`project-${projectIndex}`} className="carousel slide my-carousel carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                        <div className="carousel-indicators">
+                            {buttonsCarousel}
+                        </div>
+                        <div className="carousel-inner">
+                            {imagesCarousel}
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target={`#project-${projectIndex}`} data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target={`#project-${projectIndex}`} data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
                     </div>
 
 
