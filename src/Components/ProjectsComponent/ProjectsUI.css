@@ -28,6 +28,12 @@
 }
 
 
+.my-sticky-top {
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+}
+
 @keyframes reflejo {
     0% {
         background: linear-gradient(

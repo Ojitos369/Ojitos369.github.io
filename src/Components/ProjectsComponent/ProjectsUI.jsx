@@ -71,12 +71,19 @@ function ProjectsUI() {
     ]
 
     const [showProjects, setShowProjects] = React.useState('Show Projects')
+    const [classToggleProjects, setClassToggleProjects] = React.useState('')
+    //let classToggleProjectsButton = "btn btn-primary offset-1 col-10 my-btn";
+    const [classToggleProjectsButton, setClassToggleProjectsButton] = React.useState('btn btn-primary offset-1 col-10 my-btn')
     const toggleProjects = () => {
         if (showProjects === 'Show Projects') {
             setShowProjects('Hide Projects')
+            setClassToggleProjects("my-sticky-top")
+            setClassToggleProjectsButton("btn btn-primary offset-1 col-10 my-btn my-sticky-top")
         }
         else {
             setShowProjects('Show Projects')
+            setClassToggleProjects("")
+            setClassToggleProjectsButton("btn btn-primary offset-1 col-10 my-btn")
         }
     }
     return (
@@ -87,12 +94,12 @@ function ProjectsUI() {
                         Some Projects
                     </p>
                 </div>
-                <p>
-                    <button class="btn btn-primary offset-1 col-10 my-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjects" aria-expanded='false' aria-controls="collapseProjects" onClick={toggleProjects}>
+                <p className={classToggleProjects}>
+                    <button className={classToggleProjectsButton} type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjects" aria-expanded='false' aria-controls="collapseProjects" onClick={toggleProjects}>
                         {showProjects}
                     </button>
                 </p>
-                <div class="collapse" id="collapseProjects">
+                <div className="collapse" id="collapseProjects">
                     <div className='row d-flex justify-content-around'>
                         {projects.map((project, index) => {
                             return (
