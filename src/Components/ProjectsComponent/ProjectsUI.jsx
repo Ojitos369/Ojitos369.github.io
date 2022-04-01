@@ -70,7 +70,7 @@ function ProjectsUI() {
         }
     ]
 
-    const [showProjects, setShowProjects] = React.useState('Hide Projects')
+    const [showProjects, setShowProjects] = React.useState('Show Projects')
     const toggleProjects = () => {
         if (showProjects === 'Show Projects') {
             setShowProjects('Hide Projects')
@@ -88,11 +88,11 @@ function ProjectsUI() {
                     </p>
                 </div>
                 <p>
-                    <button class="btn btn-primary offset-1 col-10 my-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onClick={toggleProjects}>
+                    <button class="btn btn-primary offset-1 col-10 my-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjects" aria-expanded='false' aria-controls="collapseProjects" onClick={toggleProjects}>
                         {showProjects}
                     </button>
                 </p>
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="collapseProjects">
                     <div className='row d-flex justify-content-around'>
                         {projects.map((project, index) => {
                             return (
