@@ -33,7 +33,7 @@ function Project(props) {
     const linkButtonClass = project.repo !== '' ? "btn btn-success col-5 site-btn" : "btn btn-success col-10 site-btn"
     return (
         <React.Fragment>
-            <div className='col col-md-4 mt-4'>
+            <div className='col-10 col-md-4 mt-4'>
                 <div className="card">
                     {/* Carousel Header */}
                     <div id={`project-${projectIndex}`} className="carousel slide" data-bs-ride="carousel" data-pause="false">
