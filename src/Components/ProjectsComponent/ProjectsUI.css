@@ -1,7 +1,22 @@
+.accordion-button,
+.accordion-item,
 .card, 
 .card-body {
-    background: #0000;
+    background: #0000 !important;
 }
+
+.accordion-header {
+    border: #888 solid 1px;
+    border-radius: 25px;
+    color: #fff !important;
+    text-align: center;
+}
+.accordion-button {
+    border:none;
+    color: #fff !important;
+    text-align: center;
+}
+
 
 .card {
     border: 1px #888 solid;

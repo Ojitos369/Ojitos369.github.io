@@ -56,7 +56,7 @@ function Project(props) {
 
                     {/* Body Card */}
                     <div className="card-body">
-                        <h5 className="card-title">{project.name}</h5>
+                        <h5 className="card-title text-center mb-3">{project.name}</h5>
                         <p className="card-text">{project.description}</p>
                         <div className='row d-flex justify-content-around'>
                         {project.link !== '' &&
