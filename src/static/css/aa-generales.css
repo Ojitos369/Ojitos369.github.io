@@ -1,6 +1,14 @@
 @import './animations.css';
 @import './vars.css';
 
+#my-body {
+    width: 100%;
+    min-height: 100vh;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
 .reflejo:hover {
     animation: reflejo 0.3s;

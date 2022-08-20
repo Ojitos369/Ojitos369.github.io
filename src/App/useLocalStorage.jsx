@@ -1,6 +1,6 @@
 import React from "react";
 
-function useLocalStorage(itemName, initialValue) {
+function useLocalStorage(itemName, initialValue, f) {
     const [state, dispatch] = React.useReducer(reducer, initialValue);
 
     const {} = state;
@@ -21,6 +21,7 @@ function useLocalStorage(itemName, initialValue) {
                 parsedItem = JSON.parse(localStorageItem);
             }
             onSave(parsedItem);
+            f.localLoaded();
         } catch (error) {
             console.log(error);
         }

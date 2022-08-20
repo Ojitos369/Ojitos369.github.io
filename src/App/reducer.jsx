@@ -1,11 +1,19 @@
 const actionTypes = {
-    update_input: 'UPDATE_INPUT',
+    localLoaded: 'LOCAL_LOADED',
+    changeGeneralTheme: 'CHANGE_GENERAL_THEME',
 }
 
 const reducerObject =  (state, actionTypes, payload = null) => ({
-    [actionTypes.update_input]: {
+    [actionTypes.localLoaded]: {
         ...state,
-        input: payload,
+        localLoaded: true,
+    },
+    [actionTypes.changeGeneralTheme]: {
+        ...state,
+        styles: {
+            ...state.styles,
+            styleClass: payload,
+        }
     }
 })
 
@@ -24,9 +32,12 @@ class functions {
         this.dispatch = dispatch;
     }
     
-    updateInput = (e) => {
-        const payload = e.target.value;
-        this.dispatch({ type: actionTypes.update_input, payload });
+    localLoaded = () => {
+        this.dispatch({ type: actionTypes.localLoaded });
+    }
+
+    changeGeneralTheme = (classTheme) => {
+        this.dispatch({ type: actionTypes.changeGeneralTheme, payload: classTheme });
     }
 }
 

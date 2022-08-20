@@ -1,11 +1,11 @@
 import React from 'react';
 
-function MyComponent() {
+function Head() {
     return (
         <React.Fragment>
-            <p>MyComponent</p>
+            <p>Head</p>
         </React.Fragment>
     )
 }
 
-export { MyComponent };
+export { Head };

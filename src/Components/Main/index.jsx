@@ -1,11 +1,11 @@
 import React from 'react';
 
-function MyComponent() {
+function Main() {
     return (
         <React.Fragment>
-            <p>MyComponent</p>
+            <p>Main</p>
         </React.Fragment>
     )
 }
 
-export { MyComponent };
+export { Main };
