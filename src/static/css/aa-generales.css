@@ -1,0 +1,15 @@
+@import './animations.css';
+@import './vars.css';
+
+
+.reflejo:hover {
+    animation: reflejo 0.3s;
+}
+
+.manita {
+    cursor: pointer;
+}
+
+.zoom:hover {
+    animation: zoom 1s;
+}
