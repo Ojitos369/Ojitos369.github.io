@@ -1,10 +1,16 @@
 import React from 'react';
 
-function Head() {
+function Head({s}) {
     return (
-        <React.Fragment>
-            <p>Head</p>
-        </React.Fragment>
+        <header 
+            className={`text-light`}
+            id = "header">
+            <div className='defoque'></div>
+            <h1>Erick Garcia</h1>
+            <br />
+            <h3>Software Developer</h3>
+            <h4>if get_something() == 404: make_it()</h4>
+        </header>
     )
 }
 

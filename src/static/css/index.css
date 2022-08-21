@@ -1,2 +1,9 @@
 @import './aa-generales.css';
-@import './my_component.css';
+@import './head.css';
+@import './menu.css';
+
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+}

@@ -1,6 +1,7 @@
 const actionTypes = {
     localLoaded: 'LOCAL_LOADED',
     changeGeneralTheme: 'CHANGE_GENERAL_THEME',
+    changeViewMode: 'CHANGE_VIEW_MODE',
 }
 
 const reducerObject =  (state, actionTypes, payload = null) => ({
@@ -10,10 +11,11 @@ const reducerObject =  (state, actionTypes, payload = null) => ({
     },
     [actionTypes.changeGeneralTheme]: {
         ...state,
-        styles: {
-            ...state.styles,
-            styleClass: payload,
-        }
+        styles: payload,
+    },
+    [actionTypes.changeViewMode]: {
+        ...state,
+        viewMode: payload,
     }
 })
 
@@ -36,8 +38,12 @@ class functions {
         this.dispatch({ type: actionTypes.localLoaded });
     }
 
-    changeGeneralTheme = (classTheme) => {
-        this.dispatch({ type: actionTypes.changeGeneralTheme, payload: classTheme });
+    changeGeneralTheme = (newStyle) => {
+        this.dispatch({ type: actionTypes.changeGeneralTheme, payload: newStyle });
+    }
+
+    changeViewMode = (newViewMode) => {
+        this.dispatch({ type: actionTypes.changeViewMode, payload: newViewMode });
     }
 }
 

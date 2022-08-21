@@ -43,12 +43,16 @@ function useLocalStorage(itemName, initialValue, f) {
 
 const actionTypes = {
     save: 'SAVE',
+    changeTheme: 'CHANGE_THEME',
 }
 
 const reducerObject = (state, payload) =>({
     [actionTypes.save]:{
         ...payload
     },
+    [actionTypes.changeTheme]:{
+        ...payload
+    }
 });
 
 const reducer = (state, action) =>{
@@ -64,6 +68,40 @@ class localFunctions {
         const value = e.target.value;
         let clone_state = {...state};
         clone_state.input = value;
+        this.dispatch(clone_state);
+    }
+
+    changeTheme = (state, f) => {
+        let clone_state = {...state};
+        let classTheme = 'bg-dark text-light';
+        let borderBottom = 'b-b-l';
+        let border = 'border-light';
+        let invertClassTheme = 'bg-light text-dark';
+        let invertBorderBottom = 'b-b-d';
+        let invertBorder = 'border-dark';
+
+
+        if (state.themeMode === 'dark') {
+            clone_state.themeMode = 'light';
+            classTheme = 'bg-light text-dark';
+            borderBottom = 'b-b-d';
+            border = 'border-dark';
+            invertClassTheme = 'bg-dark text-light';
+            invertBorderBottom = 'b-b-d';
+            invertBorder = 'border-dark';
+        } else if (state.themeMode === 'light') {
+            clone_state.themeMode = 'dark';
+        }
+        const newStyle = {
+            ...state.styles,
+            styleClass: classTheme,
+            borderBottom: borderBottom,
+            border: border,
+            invertClassTheme: invertClassTheme,
+            invertBorderBottom: invertBorderBottom,
+            invertBorder: invertBorder,
+        }
+        f.changeGeneralTheme(newStyle);
         this.dispatch(clone_state);
     }
 }

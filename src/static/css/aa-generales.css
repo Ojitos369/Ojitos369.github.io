@@ -5,9 +5,25 @@
     width: 100%;
     min-height: 100vh;
 }
+#separator-main {
+    margin-bottom: 5vh;
+}
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+.b-b-l {
+    border-bottom: 1px solid #aaa;
+}
+.b-b-d {
+    border-bottom: 1px solid #333;
+}
+.border-light {
+    border: 1px solid #aaa;
+}
+.border-dark {
+    border: 1px solid #333;
 }
 
 .reflejo:hover {

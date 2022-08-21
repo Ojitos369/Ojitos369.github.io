@@ -2,9 +2,9 @@ import React from 'react';
 
 function Main() {
     return (
-        <React.Fragment>
+        <main id="main">
             <p>Main</p>
-        </React.Fragment>
+        </main>
     )
 }
 
