@@ -19,11 +19,26 @@ function useMyContext(){
         },
         viewMode: 'Projects',
         optionsMenu: [
-            {name: 'Projects', value: 'Projects'},
-            {name: 'About', value: 'About'},
-            {name: 'Skills', value: 'Skills'},
-            {name: 'Contact', value: 'Contact'},
-            {name: 'Settings', value: 'Settings'},
+            {
+                name: 'Projects', 
+                value: 'Projects',
+            },
+            {
+                name: 'About', 
+                value: 'About',
+            },
+            {
+                name: 'Skills', 
+                value: 'Skills',
+            },
+            {
+                name: 'Contact', 
+                value: 'Contact',
+            },
+            {
+                name: 'Settings', 
+                value: 'Settings',
+            },
         ]
     }
     const [state, dispatch] = useReducer({ reducer, initialState });

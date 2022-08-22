@@ -24,6 +24,7 @@ function App() {
                         item={item}
                         s={state}
                         f={f}
+                        ls={localState}
                         key={item.name}
                         />}
                 />
