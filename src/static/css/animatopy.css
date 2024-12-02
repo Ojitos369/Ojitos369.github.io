@@ -1,0 +1,47 @@
+.entradaHeight {
+    animation: entradaHeight 0.5s;
+    height: auto;
+    padding: 20px 40px;
+    display: block;
+    opacity: 1;
+}
+.salidaHeight {
+    animation: salidaHeight 0.5s;
+    height: 0px;
+    padding: 0 40px;
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+}
+
+@keyframes entradaHeight {
+    from {
+        height: 0px;
+        padding: 0 40px;
+        display: none;
+        overflow: hidden;
+        opacity: 0;
+    }
+    to {
+        height: auto;
+        padding: 20px 40px;
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes salidaHeight {
+    from {
+        height: auto;
+        padding: 20px 40px;
+        display: block;
+        opacity: 1;
+    }
+    to {
+        height: 0px;
+        padding: 0 40px;
+        display: none;
+        overflow: hidden;
+        opacity: 0;
+    }
+}

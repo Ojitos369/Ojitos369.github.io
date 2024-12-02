@@ -1,0 +1,49 @@
+.dataContainer {
+    border: 1px solid var(--my-minor);
+    .dataItem {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+        .icon {
+            label {
+                input {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+    .dataInfo {
+        border-top: 1px solid var(--my-minor);
+        padding: 20px 40px;
+        .techs {
+            display: flex;
+            flex-wrap: wrap;
+            .tech {
+                display: inline-block;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid var(--my-minor);
+                width: 100px;
+                margin: 10px;
+                .iconTech {
+                    svg {
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+    &:first-child {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    &:last-child {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}

@@ -1,0 +1,72 @@
+.sun {
+    .primary{
+        fill: var(--my-secondary);
+    }
+    .secondary{
+        fill: var(--my-yellow);
+    }
+}
+.moon {
+    .primary{
+        fill: var(--my-secondary);
+    }
+    .secondary{
+        fill: var(--my-yellow);
+    }
+}
+.circle_xmark {
+    .primary{
+        fill: #800;
+    }
+    .secondary{
+        fill: #000;
+    }
+}
+.gears {
+    .primary{
+        fill: #05f2be;
+    }
+    .secondary{
+        fill: #9616ff;
+    }
+}
+.menu {
+    .primary{
+        fill: var(--my-light);
+    }
+    .secondary{
+        fill: var(--my-secondary);
+    }
+}
+.globe_pointer {
+    .primary{
+        fill: var(--my-light);
+    }
+    .secondary{
+        fill: var(--my-secondary);
+    }
+}
+.desktop {
+    .primary{
+        fill: var(--my-light);
+    }
+    .secondary{
+        fill: var(--my-secondary);
+    }
+}
+.blog {
+    .primary{
+        fill: var(--my-light);
+    }
+    .secondary{
+        fill: var(--my-secondary);
+    }
+}
+.circle_x_mark, .forward, .backward {
+    .primary{
+        fill: var(--my-secondary);
+    }
+    .secondary{
+        fill: var(--my-light);
+    }
+}

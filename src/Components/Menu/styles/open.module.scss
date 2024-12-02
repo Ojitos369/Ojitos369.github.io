@@ -1,0 +1,74 @@
+.menu_container {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    z-index: 100;
+    background-color: #121212aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_container .menu_list {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_container .menu_list .menu_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--my-major-sec);
+
+    border-radius: 150px;
+    /* background: linear-gradient(var(--view-grade), var(--my-secondary), #0000 90%); */
+    /* box-shadow:  2px 2px 20px #12121288, -2px -2px 2px var(--my-light); */
+
+    position: fixed;
+    /* top: calc(50% - 35px);
+    left: calc(50% - 35px); */
+
+    font-size: 0.8rem;
+}
+
+.menu_container .menu_list .menu_item:hover {
+    /* background: linear-gradient(var(--view-grade), var(--my-light), #0000 90%); */
+    background: var(--my-minor) !important;
+    background: radial-gradient(circle, var(--my-minor) 0%, var(--my-minor-sec) 10%, var(--my-major-sec) 50%, var(--my-mayor) 90%) !important;
+    /* border: 1px solid var(--my-light) !important; */
+    box-shadow: inset 2px 2px 20px var(--my-major), inset -2px -2px 20px var(--my-minor) !important;
+    transform: scale(1.1) !important;
+    color: var(--my-minor) !important;
+    font-weight: bold;
+}
+
+.navbar_menu {
+    position: fixed;
+    
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid var(--my-minor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    z-index: 120;
+}
+

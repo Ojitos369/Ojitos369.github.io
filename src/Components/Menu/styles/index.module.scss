@@ -1,0 +1,14 @@
+.navbar_menu {
+    position: fixed;
+    border-radius: 50%;
+    padding: 10px;
+    padding-right: 2px;
+    // border: 2px solid var(--my-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    z-index: 120;
+}

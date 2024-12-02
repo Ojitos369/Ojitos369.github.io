@@ -1,3 +1,20 @@
 :root {
     --my-bg-dark: #000;
+    --my-success: #198754;
+    --my-primary: #0a548b;
+    --my-orange: #fd7e14;
+    --my-danger: #dc3545;
+    --my-yellow: #ffc107;
+    --my-purple: #800080;
+    --my-secondary: #6c757d;
+    --my-dark: #212529;
+    --my-light: #f8f9fa;
+    --my-black: #212529;
+    --my-white: #f8f9fa;
+
+    --my-middle: #57687c;
+    --my-minor: #b4c7dd;
+    --my-minor-sec: #3498DB;
+    --my-major-sec: #004079;
+    --my-major: #0A1A2D;
 }
