@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-500 -200 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="228.242" y1="56.542" x2="228.242" y2="429.544" id="gradient-0" gradientTransform="matrix(2.086859, 1.817503, -2.88244, 3.125134, 363.824097, -848.728027)" spreadMethod="pad">
+      <stop offset="0" style="stop-color: rgb(255, 136, 136);"/>
+      <stop offset="1" style="stop-color: rgb(136, 0, 0);"/>
+    </linearGradient>
+    <path id="path-0" d="M 65.719 195.086 C 103.595 184.429 113.233 179.586 123.446 179.1 C 151.459 177.766 179.768 179.1 207.815 179.1 C 236.958 179.1 256.036 180.66 276.199 183.541 C 293.982 188.58 308.416 189.757 321.492 189.757" style="fill: none;"/>
+    <path id="path-1" d="M 80.817 62.759 C 105.568 52.131 116.236 49.438 131.439 49.438 C 165.657 49.438 194.379 56.542 222.913 56.542 C 250.644 62.122 277.111 61.871 301.954 61.871 C 304.02 61.871 311.342 57.621 313.499 56.542 C 323.282 51.651 330.345 47.231 338.366 43.221 C 346.68 42.333 355.582 37.892 362.345 37.892 C 375.247 37.892 382.021 38.849 388.988 42.333 L 390.764 43.221 C 394.21 44.369 398.562 44.867 401.421 46.773" style="fill: none;"/>
+  </defs>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: url(#gradient-0); stroke-width: 30px;" cx="99.754" rx="500.246" ry="500.615" cy="400.615"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 30px;" cx="100" cy="300" rx="100" ry="100"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-linecap: round; stroke-miterlimit: 50; stroke-width: 30px;" d="M -200 300 C -158.717 249.769 -38.728 200 98 200"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-linecap: round; stroke-width: 30px;" d="M 400 300 C 351.215 249.538 229.633 200 100 200"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 30px;" d="M 101.55 400.181 C -30.936 400 -159.196 354.848 -200 300"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-linecap: round; stroke-width: 30px;" d="M 99.316 400.14 C 251.553 400 348.81 448.015 400 500"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 30px;" d="M 100 599.054 C 235.359 600 349.734 548.164 400 500"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-linecap: round; stroke-width: 30px;" d="M 100.117 599.381 C -47.841 600 -152.773 552.385 -200 500"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 30px;" d="M 97.389 200 L 100 594.52"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 30px;" cx="100" cy="100" rx="17.5" ry="17.5"/>
+</svg>
